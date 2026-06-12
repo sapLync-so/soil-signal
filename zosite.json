@@ -1,0 +1,15 @@
+{
+  "name": "soil-signal",
+  "local_port": 53606,
+  "entrypoint": "bun run dev",
+  "publish": {
+    "label": "soil-signal",
+    "type": "http",
+    "entrypoint": "bun run prod",
+    "published_port": 56027,
+    "env": {
+      "NODE_ENV": "production",
+      "ZO_CLIENT_IDENTITY_TOKEN": "none"
+    }
+  }
+}
