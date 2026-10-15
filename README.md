@@ -2,21 +2,20 @@ This file provides guidance when working with code in this repository. The READM
 
 # Project Notes
 
-This site is the first visual pass for **Soil & Signal**, a private Zo Site intended as a clothing line and streetwear brand rooted in land, technology, and culture.
+This Zo Site hosts **Soiled Society**, a faceless digital-products brand, and keeps an archived **Soil & Signal** apparel demo at `/soil-signal-demo`.
 
 ## Current Direction
 
-- **Tone:** premium, restrained, experimental, and grounded
-- **Purpose:** a flexible base for future pages, component experiments, and different library installations
-- **Layout strategy:** present the site as an apparel brand first, with product imagery and collection language that can later expand into drops, lookbooks, and commerce flows
-- **UI system:** shadcn/ui is now part of the foundation for buttons, badges, and cards
+- **Primary route (`/`):** sales-funnel landing for Soiled Society digital downloads (printables live; audio, templates, guides marked coming soon)
+- **Product data:** `src/data/soiled-society.ts` — add products and categories in one place
+- **Checkout:** buy buttons link to the Shopify store (`daxgdi-pk.myshopify.com`)
+- **UI system:** shadcn/ui buttons, badges, and cards on a mobile-first cream / forest / terracotta palette
 
 ## Implementation Status
 
-- The homepage now speaks in clothing-line language instead of generic brand copy
-- Placeholder fashion imagery has been generated for sweaters, tee shirts, socks, jeans, and sweats with S/S logo details
-- The site remains **private** for now
-- The codebase is still a blank-style foundation, but the homepage now establishes a more accurate visual language for the project
+- Landing page rebuilt in React + Tailwind (from the HTML draft reference)
+- Email signup is a client-side placeholder (no backend endpoint)
+- Soil & Signal clothing demo preserved at `/soil-signal-demo` for prior visual experiments
 
 <!-- Documentation for this specific project goes here. This will include both an articulation of what this project aims to accomplish as well as technical details about how it works. This means explaining the purpose of the project as a whole along with an overview of the design choices. -->
 
